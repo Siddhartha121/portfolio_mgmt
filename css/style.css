@@ -1,0 +1,46 @@
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+/* Navbar container */
+.navbar {
+    overflow: hidden; 
+    padding: 10px 20px;
+}
+
+/* Logo */
+.logo img {
+    height: 75px; 
+    vertical-align: middle; 
+    margin-left: 100px;
+}
+
+/* Navbar links */
+ul {
+    list-style-type: none; 
+    float: right; 
+    margin-right: 100px;
+    margin-top: 10px;
+}
+
+ul li {
+    display: inline-block; /* Display items horizontally */
+    margin-left: 20px; 
+}
+
+ul li a {
+    color: white; 
+    text-decoration: none; 
+    font-size: 18px; 
+    padding: 10px; 
+    border-bottom: 2px solid transparent;
+}
+
+ul li a:hover {
+    color: yellow;
+    border-radius: 5px solid;
+    border-bottom-color: yellow; 
+}
